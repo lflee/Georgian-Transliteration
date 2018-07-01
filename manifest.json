@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Georgian Transliteration Tools",
+  "version": "0.1",
+
+  "description": "Transliterate the selected text from Latin characters to Georgian, and vice versa",
+  "icons": {"128": "icon.png"},
+
+  "update_url": "https://clients2.google.com/service/update2/crx",
+
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["Georgian.js"],
+    "persistent": true
+  },
+
+  "author": "峰"
+  
+}
